@@ -1,0 +1,79 @@
+/vendor_dlkm/lib/modules/audio_adsp_loader.ko: /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/touchscreen_mmi.ko: /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko
+/vendor_dlkm/lib/modules/sec_mmi.ko: /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/gpio-madera.ko:
+/vendor_dlkm/lib/modules/goodix_v1430_update_mmi.ko: /vendor_dlkm/lib/modules/goodix_v1430_mmi.ko /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko
+/vendor_dlkm/lib/modules/audio_stub.ko:
+/vendor_dlkm/lib/modules/mmi_info.ko: /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/audio_tx_macro.ko: /vendor_dlkm/lib/modules/audio_swr_ctrl.ko /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_wcd_core.ko /vendor_dlkm/lib/modules/audio_bolero_cdc.ko /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/synaptics_testing.ko: /vendor_dlkm/lib/modules/synaptics_core_module.ko /vendor_dlkm/lib/modules/synaptics_i2c.ko /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/stmvl53l1.ko:
+/vendor_dlkm/lib/modules/audio_wcd9xxx.ko: /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/watchdog_cpu_ctx.ko: /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/cirrus_irq-madera.ko:
+/vendor_dlkm/lib/modules/mmi_relay.ko:
+/vendor_dlkm/lib/modules/audio_wcd937x_slave.ko: /vendor_dlkm/lib/modules/audio_swr.ko
+/vendor_dlkm/lib/modules/audio_q6_notifier.ko: /vendor_dlkm/lib/modules/audio_q6_pdr.ko
+/vendor_dlkm/lib/modules/audio_wcd_core.ko:
+/vendor_dlkm/lib/modules/audio_wsa883x.ko: /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_wcd_core.ko
+/vendor_dlkm/lib/modules/cirrus_cs35l41-spi.ko: /vendor_dlkm/lib/modules/cirrus_cs35l41.ko /vendor_dlkm/lib/modules/cirrus_wm_adsp.ko
+/vendor_dlkm/lib/modules/synaptics_i2c.ko: /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/extcon-madera.ko: /vendor_dlkm/lib/modules/cirrus_irq-madera.ko
+/vendor_dlkm/lib/modules/audio_snd_event.ko:
+/vendor_dlkm/lib/modules/goodix_fod_mmi.ko:
+/vendor_dlkm/lib/modules/utags.ko:
+/vendor_dlkm/lib/modules/slg5bm43670.ko:
+/vendor_dlkm/lib/modules/audio_machine_lito.ko: /vendor_dlkm/lib/modules/audio_wcd938x.ko /vendor_dlkm/lib/modules/audio_wcd937x.ko /vendor_dlkm/lib/modules/audio_mbhc.ko /vendor_dlkm/lib/modules/audio_wcd9xxx.ko /vendor_dlkm/lib/modules/audio_wsa881x.ko /vendor_dlkm/lib/modules/audio_wsa883x.ko /vendor_dlkm/lib/modules/audio_wsa_macro.ko /vendor_dlkm/lib/modules/audio_swr_ctrl.ko /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_wcd_core.ko /vendor_dlkm/lib/modules/audio_bolero_cdc.ko /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/qpnp-smbcharger-mmi.ko:
+/vendor_dlkm/lib/modules/pinctrl-madera.ko:
+/vendor_dlkm/lib/modules/synaptics_device.ko: /vendor_dlkm/lib/modules/synaptics_core_module.ko /vendor_dlkm/lib/modules/synaptics_i2c.ko /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/audio_rx_macro.ko: /vendor_dlkm/lib/modules/audio_swr_ctrl.ko /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_wcd_core.ko /vendor_dlkm/lib/modules/audio_bolero_cdc.ko /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/audio_wcd938x.ko: /vendor_dlkm/lib/modules/audio_mbhc.ko /vendor_dlkm/lib/modules/audio_wcd9xxx.ko /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_wcd_core.ko /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/aov_trigger.ko:
+/vendor_dlkm/lib/modules/audio_swr_ctrl.ko: /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/sensors_class.ko:
+/vendor_dlkm/lib/modules/aw8695.ko:
+/vendor_dlkm/lib/modules/goodix_v1430_mmi.ko: /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko
+/vendor_dlkm/lib/modules/goodix_v1430_ts_tools_mmi.ko: /vendor_dlkm/lib/modules/goodix_v1430_mmi.ko /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko
+/vendor_dlkm/lib/modules/mmi_annotate.ko:
+/vendor_dlkm/lib/modules/synaptics_recovery.ko: /vendor_dlkm/lib/modules/synaptics_core_module.ko /vendor_dlkm/lib/modules/synaptics_i2c.ko /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/audio_va_macro.ko: /vendor_dlkm/lib/modules/audio_swr_ctrl.ko /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_wcd_core.ko /vendor_dlkm/lib/modules/audio_bolero_cdc.ko /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/cirrus_madera-core.ko:
+/vendor_dlkm/lib/modules/cirrus_madera.ko: /vendor_dlkm/lib/modules/cirrus_irq-madera.ko
+/vendor_dlkm/lib/modules/audio_usf.ko: /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/st21nfc.ko: /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/audio_bolero_cdc.ko: /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/cci_intf.ko:
+/vendor_dlkm/lib/modules/synaptics_core_module.ko: /vendor_dlkm/lib/modules/synaptics_i2c.ko /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/rmnet_perf.ko:
+/vendor_dlkm/lib/modules/audio_wsa_macro.ko: /vendor_dlkm/lib/modules/audio_swr_ctrl.ko /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_wcd_core.ko /vendor_dlkm/lib/modules/audio_bolero_cdc.ko /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/mmi_sys_temp.ko:
+/vendor_dlkm/lib/modules/audio_wcd938x_slave.ko: /vendor_dlkm/lib/modules/audio_swr.ko
+/vendor_dlkm/lib/modules/synaptics_diagnostics.ko: /vendor_dlkm/lib/modules/synaptics_core_module.ko /vendor_dlkm/lib/modules/synaptics_i2c.ko /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/moto_f_usbnet.ko:
+/vendor_dlkm/lib/modules/arizona-micsupp.ko:
+/vendor_dlkm/lib/modules/audio_apr.ko: /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/watchdogtest.ko:
+/vendor_dlkm/lib/modules/cirrus_playback.ko: /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/cirrus_wm_adsp.ko:
+/vendor_dlkm/lib/modules/synaptics_zeroflash.ko: /vendor_dlkm/lib/modules/synaptics_core_module.ko /vendor_dlkm/lib/modules/synaptics_i2c.ko /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/audio_native.ko: /vendor_dlkm/lib/modules/audio_platform.ko /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/audio_platform.ko: /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/audio_q6_pdr.ko:
+/vendor_dlkm/lib/modules/qca_cld3_wlan.ko:
+/vendor_dlkm/lib/modules/audio_hdmi.ko:
+/vendor_dlkm/lib/modules/audio_q6.ko: /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/sx933x_sar.ko: /vendor_dlkm/lib/modules/sensors_class.ko
+/vendor_dlkm/lib/modules/cirrus_cs35l41.ko: /vendor_dlkm/lib/modules/cirrus_wm_adsp.ko
+/vendor_dlkm/lib/modules/tzlog_dump.ko: /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/audio_swr.ko:
+/vendor_dlkm/lib/modules/audio_wcd937x.ko: /vendor_dlkm/lib/modules/audio_mbhc.ko /vendor_dlkm/lib/modules/audio_wcd9xxx.ko /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_wcd_core.ko /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/audio_pinctrl_lpi.ko: /vendor_dlkm/lib/modules/audio_q6.ko /vendor_dlkm/lib/modules/audio_apr.ko /vendor_dlkm/lib/modules/audio_q6_notifier.ko /vendor_dlkm/lib/modules/audio_q6_pdr.ko /vendor_dlkm/lib/modules/audio_snd_event.ko
+/vendor_dlkm/lib/modules/gspca_main.ko:
+/vendor_dlkm/lib/modules/synaptics_reflash.ko: /vendor_dlkm/lib/modules/synaptics_core_module.ko /vendor_dlkm/lib/modules/synaptics_i2c.ko /vendor_dlkm/lib/modules/touchscreen_mmi.ko /vendor_dlkm/lib/modules/sensors_class.ko /vendor_dlkm/lib/modules/mmi_relay.ko /vendor_dlkm/lib/modules/mmi_info.ko /vendor_dlkm/lib/modules/mmi_annotate.ko
+/vendor_dlkm/lib/modules/qpnp-power-on-mmi.ko:
+/vendor_dlkm/lib/modules/audio_wsa881x.ko: /vendor_dlkm/lib/modules/audio_swr.ko /vendor_dlkm/lib/modules/audio_wcd_core.ko
+/vendor_dlkm/lib/modules/rmnet_shs.ko:
+/vendor_dlkm/lib/modules/cirrus_cs47l35.ko: /vendor_dlkm/lib/modules/aov_trigger.ko /vendor_dlkm/lib/modules/cirrus_madera.ko /vendor_dlkm/lib/modules/cirrus_irq-madera.ko /vendor_dlkm/lib/modules/cirrus_wm_adsp.ko
+/vendor_dlkm/lib/modules/arizona-ldo1.ko:
+/vendor_dlkm/lib/modules/audio_mbhc.ko:
