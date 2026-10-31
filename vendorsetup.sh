@@ -1,3 +1,5 @@
+export ALLOW_MISSING_DEPENDENCIES=true
+
 #
 # vendorsetup.sh for Motorola racer (AERA Recovery).
 # Adapted from the garnet tree's vendorsetup.sh.
