@@ -1,3 +1,9 @@
+PRODUCT_BUILD_FROM_TEXT_STUB := true
+# Recovery-only build: build Java stubs from text so Soong does not create the
+# android_stubs_current -> all-modules-public-stubs -> framework-connectivity.stubs
+# dependency cycle. Full AOSP products set this via base product config; the
+# twrp product does not inherit it, so stubs are built from source and the cycle appears.
+
 #
 # AERA-specific product configuration for Motorola racer.
 # Adapted from aera_garnet.mk (AERA-Recovery/android_device_xiaomi_garnet-AERA).
