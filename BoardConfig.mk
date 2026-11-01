@@ -50,13 +50,12 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 # DTB and DTBO alongside it are from the same dump set.
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
+BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # -------- from lineage DT -------------
 # we're qcom
 BOARD_USES_QCOM_HARDWARE := true
-
-BOARD_USES_GENERIC_KERNEL_IMAGE := true
 
 AERA_USE_LEGACY_BATTERY_SERVICES := true
 
@@ -113,10 +112,3 @@ AERA_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
 
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 2097152
-
-# Properties
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-# Security
-VENDOR_SECURITY_PATCH := 2022-08-01
