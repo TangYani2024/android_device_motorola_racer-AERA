@@ -93,21 +93,20 @@ AERA_POST_DECRYPT_MODULES := "qca_cld3_wlan.ko rmnet_perf.ko rmnet_shs.ko"
 # Kernel modules to load in recovery.
 # VERIFIED 2026-10-31 from the live LOS 23.2 vendor (79 .ko files pulled
 # to prebuilt/vendor/lib/modules/): /vendor/lib/modules/modules.load is
-# an EMPTY file (0 bytes) — there is no modules.load load order on this
+# an EMPTY file (0 bytes) - there is no modules.load load order on this
 # device, so the order below was derived from /vendor/lib/modules/
 # modules.dep instead (topological sort, deps first) and checked against
-# the LOS tree's BOARD_RECOVERY_KERNEL_MODULES_LOAD: the 24 recovery
-# modules are in LOS order, are self-contained (no dep outside the set),
-# and their order is topologically valid. Order of groups: LOS recovery
-# set first (touch must be up before the UI starts), then the audio
-# sequence (leaves first, machine driver audio_machine_lito.ko last),
-# then misc (cci_intf, moto_f_usbnet, aw8695 haptics driver) and WLAN.
-# Modules deliberately NOT in the list (present in the tree, unused in
-# recovery): gspca_main.ko (USB webcam), st21nfc.ko (NFC),
-# stmvl53l1.ko (ToF sensor), watchdog_cpu_ctx.ko / watchdogtest.ko,
-# synaptics_zeroflash.ko (firmware update tool, LOS doesn't load it in
-# recovery either), arizona-ldo1/arizona-micsupp are included in audio.
-AERA_LOAD_VENDOR_MODULES := "utags.ko mmi_annotate.ko mmi_info.ko tzlog_dump.ko mmi_sys_temp.ko qpnp-power-on-mmi.ko qpnp-smbcharger-mmi.ko slg5bm43670.ko sensors_class.ko sx933x_sar.ko mmi_relay.ko touchscreen_mmi.ko goodix_v1430_mmi.ko goodix_v1430_update_mmi.ko goodix_v1430_ts_tools_mmi.ko goodix_fod_mmi.ko sec_mmi.ko synaptics_i2c.ko synaptics_core_module.ko synaptics_device.ko synaptics_diagnostics.ko synaptics_recovery.ko synaptics_reflash.ko synaptics_testing.ko aov_trigger.ko audio_hdmi.ko audio_mbhc.ko audio_q6_pdr.ko audio_snd_event.ko audio_stub.ko audio_swr.ko audio_wcd_core.ko arizona-ldo1.ko arizona-micsupp.ko cirrus_irq-madera.ko cirrus_madera-core.ko cirrus_wm_adsp.ko gpio-madera.ko pinctrl-madera.ko audio_q6_notifier.ko audio_wcd937x_slave.ko audio_wcd938x_slave.ko audio_wsa881x.ko audio_wsa883x.ko cirrus_cs35l41.ko cirrus_madera.ko extcon-madera.ko audio_apr.ko cirrus_cs35l41-spi.ko cirrus_cs47l35.ko audio_adsp_loader.ko audio_q6.ko audio_bolero_cdc.ko audio_pinctrl_lpi.ko audio_platform.ko audio_swr_ctrl.ko audio_usf.ko audio_wcd9xxx.ko cirrus_playback.ko audio_native.ko audio_rx_macro.ko audio_tx_macro.ko audio_va_macro.ko audio_wcd937x.ko audio_wcd938x.ko audio_wsa_macro.ko audio_machine_lito.ko cci_intf.ko moto_f_usbnet.ko aw8695.ko qca_cld3_wlan.ko"
+# the LOS tree's BOARD_RECOVERY_KERNEL_MODULES_LOAD: the set is
+# self-contained (no dep outside the set) and topologically valid.
+# 2026-11-03 size cut (recovery.img exceeded the boot partition): the
+# audio sequence (42 modules, ~10.5 MB) was removed - the AERA audio
+# bridge is not ported for racer, so recovery has no audio path anyway;
+# aw8695 haptics was removed (AERA_NO_HAPTICS is set); and six modules
+# that were packaged but never loaded (gspca_main, st21nfc, stmvl53l1,
+# watchdog_cpu_ctx, watchdogtest, synaptics_zeroflash) were dropped.
+# The .ko files were deleted in the same commit; restore from git
+# history if ever needed. WLAN (qca_cld3_wlan.ko) is kept on purpose.
+AERA_LOAD_VENDOR_MODULES := "utags.ko mmi_annotate.ko mmi_info.ko tzlog_dump.ko mmi_sys_temp.ko qpnp-power-on-mmi.ko qpnp-smbcharger-mmi.ko slg5bm43670.ko sensors_class.ko sx933x_sar.ko mmi_relay.ko touchscreen_mmi.ko goodix_v1430_mmi.ko goodix_v1430_update_mmi.ko goodix_v1430_ts_tools_mmi.ko goodix_fod_mmi.ko sec_mmi.ko synaptics_i2c.ko synaptics_core_module.ko synaptics_device.ko synaptics_diagnostics.ko synaptics_recovery.ko synaptics_reflash.ko synaptics_testing.ko aov_trigger.ko cci_intf.ko moto_f_usbnet.ko qca_cld3_wlan.ko"
 AERA_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
 
 # Partitions
