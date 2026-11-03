@@ -55,8 +55,16 @@ AERA_UNMOUNT_SDCARDS_BEFORE_REBOOT := 1
 # don't spam the console with loop errors
 AERA_LOOP_DEVICE_ERRORS_TO_LOG := 1
 
-# lz4 compression
-AERA_USE_LZ4_COMPRESSION := 1
+# ramdisk compression: gzip - AERA_USE_LZ4_COMPRESSION must stay OFF.
+# This flag maps to OF_USE_LZ4_COMPRESSION (aera_config.mk), which makes
+# aera_build.mk force BOARD_RAMDISK_USE_LZ4 := true, and the ramdisk is
+# then packed with lz4. The prebuilt stock kernel's IKCONFIG (verified
+# 2026-11-03) has CONFIG_RD_LZ4 NOT set (RD_GZIP/RD_LZMA/RD_BZIP2 are),
+# so an LZ4 ramdisk cannot be unpacked by this kernel. The garnet tree
+# this mirrors uses a source-built kernel with RD_LZ4 on; that does not
+# apply here. (This flag silently overrode the BoardConfigCommon fix in
+# build run 41574124361 - its log still showed COMPRESSION_COMMAND=lz4.)
+AERA_USE_LZ4_COMPRESSION := 0
 
 # build all the partition tools
 AERA_ENABLE_ALL_PARTITION_TOOLS := 1
