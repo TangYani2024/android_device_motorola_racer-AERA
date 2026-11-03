@@ -9,7 +9,7 @@
 # include (not inherit-product) the common settings - works better with device-specific files
 -include $(COMMON_PATH)/device-common.mk
 
-AERA_DEFAULT_LANGUAGE     := en
+AERA_DEFAULT_LANGUAGE     := zh_CN
 AERA_USE_TOOLBOX          := true
 AERA_INCLUDE_NTFS_3G      := true
 AERA_INCLUDE_REPACKTOOLS  := true
