@@ -1,84 +1,84 @@
-/vendor/lib/modules/audio_adsp_loader.ko: /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/llcc_perfmon.ko:
-/vendor/lib/modules/touchscreen_mmi.ko: /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/sec_mmi.ko: /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/lcd.ko:
-/vendor/lib/modules/gpio-madera.ko:
-/vendor/lib/modules/goodix_v1430_update_mmi.ko: /vendor/lib/modules/goodix_v1430_mmi.ko /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/audio_stub.ko:
-/vendor/lib/modules/mmi_info.ko: /vendor/lib/modules/mmi_annotate.ko
-/vendor/lib/modules/audio_tx_macro.ko: /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/mpq-adapter.ko:
-/vendor/lib/modules/synaptics_testing.ko: /vendor/lib/modules/synaptics_core_module.ko /vendor/lib/modules/synaptics_i2c.ko /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/stmvl53l1.ko:
-/vendor/lib/modules/audio_wcd9xxx.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/watchdog_cpu_ctx.ko: /vendor/lib/modules/mmi_info.ko /vendor/lib/modules/mmi_annotate.ko
-/vendor/lib/modules/cirrus_irq-madera.ko:
-/vendor/lib/modules/mmi_relay.ko:
-/vendor/lib/modules/audio_wcd937x_slave.ko: /vendor/lib/modules/audio_swr.ko
-/vendor/lib/modules/audio_q6_notifier.ko: /vendor/lib/modules/audio_q6_pdr.ko
-/vendor/lib/modules/audio_wcd_core.ko:
-/vendor/lib/modules/audio_wsa883x.ko: /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko
-/vendor/lib/modules/cirrus_cs35l41-spi.ko: /vendor/lib/modules/cirrus_cs35l41.ko /vendor/lib/modules/cirrus_wm_adsp.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko
-/vendor/lib/modules/synaptics_i2c.ko:
-/vendor/lib/modules/extcon-madera.ko: /vendor/lib/modules/cirrus_irq-madera.ko
-/vendor/lib/modules/audio_snd_event.ko:
-/vendor/lib/modules/goodix_fod_mmi.ko: /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/utags.ko:
-/vendor/lib/modules/slg5bm43670.ko:
-/vendor/lib/modules/audio_machine_lito.ko: /vendor/lib/modules/audio_wcd937x.ko /vendor/lib/modules/audio_wsa_macro.ko /vendor/lib/modules/audio_wsa881x.ko /vendor/lib/modules/audio_wsa883x.ko /vendor/lib/modules/audio_wcd938x.ko /vendor/lib/modules/audio_wcd9xxx.ko /vendor/lib/modules/audio_mbhc.ko /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/qpnp-smbcharger-mmi.ko:
-/vendor/lib/modules/synaptics_device.ko: /vendor/lib/modules/synaptics_core_module.ko /vendor/lib/modules/synaptics_i2c.ko /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/audio_rx_macro.ko: /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/audio_wcd938x.ko: /vendor/lib/modules/audio_wcd9xxx.ko /vendor/lib/modules/audio_mbhc.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/aov_trigger.ko:
-/vendor/lib/modules/audio_swr_ctrl.ko: /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/sensors_class.ko:
-/vendor/lib/modules/aw8695.ko:
-/vendor/lib/modules/goodix_v1430_mmi.ko: /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/goodix_v1430_ts_tools_mmi.ko: /vendor/lib/modules/goodix_v1430_mmi.ko /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/mmi_annotate.ko:
-/vendor/lib/modules/synaptics_recovery.ko: /vendor/lib/modules/synaptics_core_module.ko /vendor/lib/modules/synaptics_i2c.ko /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/rdbg.ko:
-/vendor/lib/modules/audio_va_macro.ko: /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/cirrus_madera-core.ko:
-/vendor/lib/modules/cirrus_madera.ko: /vendor/lib/modules/cirrus_irq-madera.ko
-/vendor/lib/modules/audio_usf.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/st21nfc.ko: /vendor/lib/modules/mmi_info.ko /vendor/lib/modules/mmi_annotate.ko
-/vendor/lib/modules/audio_bolero_cdc.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/cci_intf.ko:
-/vendor/lib/modules/synaptics_core_module.ko: /vendor/lib/modules/synaptics_i2c.ko /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/rmnet_perf.ko:
-/vendor/lib/modules/audio_wsa_macro.ko: /vendor/lib/modules/audio_swr_ctrl.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_bolero_cdc.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/mmi_sys_temp.ko:
-/vendor/lib/modules/audio_wcd938x_slave.ko: /vendor/lib/modules/audio_swr.ko
-/vendor/lib/modules/synaptics_diagnostics.ko: /vendor/lib/modules/synaptics_core_module.ko /vendor/lib/modules/synaptics_i2c.ko /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/moto_f_usbnet.ko:
-/vendor/lib/modules/arizona-micsupp.ko:
-/vendor/lib/modules/audio_apr.ko: /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/watchdogtest.ko:
-/vendor/lib/modules/cirrus_playback.ko:
-/vendor/lib/modules/cirrus_wm_adsp.ko:
-/vendor/lib/modules/audio_native.ko: /vendor/lib/modules/audio_platform.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/audio_platform.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/audio_q6_pdr.ko:
-/vendor/lib/modules/mmi_sigprint.ko:
-/vendor/lib/modules/qca_cld3_wlan.ko:
-/vendor/lib/modules/audio_hdmi.ko:
-/vendor/lib/modules/madera-pinctrl.ko:
-/vendor/lib/modules/audio_q6.ko: /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/sx933x_sar.ko: /vendor/lib/modules/sensors_class.ko
-/vendor/lib/modules/cirrus_cs35l41.ko: /vendor/lib/modules/cirrus_wm_adsp.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko
-/vendor/lib/modules/tzlog_dump.ko: /vendor/lib/modules/mmi_info.ko /vendor/lib/modules/mmi_annotate.ko
-/vendor/lib/modules/audio_swr.ko:
-/vendor/lib/modules/audio_wcd937x.ko: /vendor/lib/modules/audio_wcd9xxx.ko /vendor/lib/modules/audio_mbhc.ko /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/audio_pinctrl_lpi.ko: /vendor/lib/modules/audio_q6.ko /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko /vendor/lib/modules/audio_snd_event.ko
-/vendor/lib/modules/synaptics_reflash.ko: /vendor/lib/modules/synaptics_core_module.ko /vendor/lib/modules/synaptics_i2c.ko /vendor/lib/modules/touchscreen_mmi.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/mmi_relay.ko
-/vendor/lib/modules/qpnp-power-on-mmi.ko:
-/vendor/lib/modules/mpq-dmx-hw-plugin.ko: /vendor/lib/modules/mpq-adapter.ko
-/vendor/lib/modules/audio_wsa881x.ko: /vendor/lib/modules/audio_swr.ko /vendor/lib/modules/audio_wcd_core.ko
-/vendor/lib/modules/rmnet_shs.ko:
-/vendor/lib/modules/cirrus_cs47l35.ko: /vendor/lib/modules/aov_trigger.ko /vendor/lib/modules/cirrus_madera.ko /vendor/lib/modules/cirrus_irq-madera.ko /vendor/lib/modules/cirrus_wm_adsp.ko
-/vendor/lib/modules/arizona-ldo1.ko:
-/vendor/lib/modules/audio_mbhc.ko:
-/vendor/lib/modules/exfat.ko:
+/aera-device-runtime/modules/audio_adsp_loader.ko: /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/llcc_perfmon.ko:
+/aera-device-runtime/modules/touchscreen_mmi.ko: /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/sec_mmi.ko: /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/lcd.ko:
+/aera-device-runtime/modules/gpio-madera.ko:
+/aera-device-runtime/modules/goodix_v1430_update_mmi.ko: /aera-device-runtime/modules/goodix_v1430_mmi.ko /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/audio_stub.ko:
+/aera-device-runtime/modules/mmi_info.ko: /aera-device-runtime/modules/mmi_annotate.ko
+/aera-device-runtime/modules/audio_tx_macro.ko: /aera-device-runtime/modules/audio_swr_ctrl.ko /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_wcd_core.ko /aera-device-runtime/modules/audio_bolero_cdc.ko /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/mpq-adapter.ko:
+/aera-device-runtime/modules/synaptics_testing.ko: /aera-device-runtime/modules/synaptics_core_module.ko /aera-device-runtime/modules/synaptics_i2c.ko /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/stmvl53l1.ko:
+/aera-device-runtime/modules/audio_wcd9xxx.ko: /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/watchdog_cpu_ctx.ko: /aera-device-runtime/modules/mmi_info.ko /aera-device-runtime/modules/mmi_annotate.ko
+/aera-device-runtime/modules/cirrus_irq-madera.ko:
+/aera-device-runtime/modules/mmi_relay.ko:
+/aera-device-runtime/modules/audio_wcd937x_slave.ko: /aera-device-runtime/modules/audio_swr.ko
+/aera-device-runtime/modules/audio_q6_notifier.ko: /aera-device-runtime/modules/audio_q6_pdr.ko
+/aera-device-runtime/modules/audio_wcd_core.ko:
+/aera-device-runtime/modules/audio_wsa883x.ko: /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_wcd_core.ko
+/aera-device-runtime/modules/cirrus_cs35l41-spi.ko: /aera-device-runtime/modules/cirrus_cs35l41.ko /aera-device-runtime/modules/cirrus_wm_adsp.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko
+/aera-device-runtime/modules/synaptics_i2c.ko:
+/aera-device-runtime/modules/extcon-madera.ko: /aera-device-runtime/modules/cirrus_irq-madera.ko
+/aera-device-runtime/modules/audio_snd_event.ko:
+/aera-device-runtime/modules/goodix_fod_mmi.ko: /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/utags.ko:
+/aera-device-runtime/modules/slg5bm43670.ko:
+/aera-device-runtime/modules/audio_machine_lito.ko: /aera-device-runtime/modules/audio_wcd937x.ko /aera-device-runtime/modules/audio_wsa_macro.ko /aera-device-runtime/modules/audio_wsa881x.ko /aera-device-runtime/modules/audio_wsa883x.ko /aera-device-runtime/modules/audio_wcd938x.ko /aera-device-runtime/modules/audio_wcd9xxx.ko /aera-device-runtime/modules/audio_mbhc.ko /aera-device-runtime/modules/audio_swr_ctrl.ko /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_wcd_core.ko /aera-device-runtime/modules/audio_bolero_cdc.ko /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/qpnp-smbcharger-mmi.ko:
+/aera-device-runtime/modules/synaptics_device.ko: /aera-device-runtime/modules/synaptics_core_module.ko /aera-device-runtime/modules/synaptics_i2c.ko /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/audio_rx_macro.ko: /aera-device-runtime/modules/audio_swr_ctrl.ko /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_wcd_core.ko /aera-device-runtime/modules/audio_bolero_cdc.ko /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/audio_wcd938x.ko: /aera-device-runtime/modules/audio_wcd9xxx.ko /aera-device-runtime/modules/audio_mbhc.ko /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_wcd_core.ko /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/aov_trigger.ko:
+/aera-device-runtime/modules/audio_swr_ctrl.ko: /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/sensors_class.ko:
+/aera-device-runtime/modules/aw8695.ko:
+/aera-device-runtime/modules/goodix_v1430_mmi.ko: /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/goodix_v1430_ts_tools_mmi.ko: /aera-device-runtime/modules/goodix_v1430_mmi.ko /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/mmi_annotate.ko:
+/aera-device-runtime/modules/synaptics_recovery.ko: /aera-device-runtime/modules/synaptics_core_module.ko /aera-device-runtime/modules/synaptics_i2c.ko /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/rdbg.ko:
+/aera-device-runtime/modules/audio_va_macro.ko: /aera-device-runtime/modules/audio_swr_ctrl.ko /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_wcd_core.ko /aera-device-runtime/modules/audio_bolero_cdc.ko /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/cirrus_madera-core.ko:
+/aera-device-runtime/modules/cirrus_madera.ko: /aera-device-runtime/modules/cirrus_irq-madera.ko
+/aera-device-runtime/modules/audio_usf.ko: /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/st21nfc.ko: /aera-device-runtime/modules/mmi_info.ko /aera-device-runtime/modules/mmi_annotate.ko
+/aera-device-runtime/modules/audio_bolero_cdc.ko: /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/cci_intf.ko:
+/aera-device-runtime/modules/synaptics_core_module.ko: /aera-device-runtime/modules/synaptics_i2c.ko /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/rmnet_perf.ko:
+/aera-device-runtime/modules/audio_wsa_macro.ko: /aera-device-runtime/modules/audio_swr_ctrl.ko /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_wcd_core.ko /aera-device-runtime/modules/audio_bolero_cdc.ko /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/mmi_sys_temp.ko:
+/aera-device-runtime/modules/audio_wcd938x_slave.ko: /aera-device-runtime/modules/audio_swr.ko
+/aera-device-runtime/modules/synaptics_diagnostics.ko: /aera-device-runtime/modules/synaptics_core_module.ko /aera-device-runtime/modules/synaptics_i2c.ko /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/moto_f_usbnet.ko:
+/aera-device-runtime/modules/arizona-micsupp.ko:
+/aera-device-runtime/modules/audio_apr.ko: /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/watchdogtest.ko:
+/aera-device-runtime/modules/cirrus_playback.ko:
+/aera-device-runtime/modules/cirrus_wm_adsp.ko:
+/aera-device-runtime/modules/audio_native.ko: /aera-device-runtime/modules/audio_platform.ko /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/audio_platform.ko: /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/audio_q6_pdr.ko:
+/aera-device-runtime/modules/mmi_sigprint.ko:
+/aera-device-runtime/modules/qca_cld3_wlan.ko:
+/aera-device-runtime/modules/audio_hdmi.ko:
+/aera-device-runtime/modules/madera-pinctrl.ko:
+/aera-device-runtime/modules/audio_q6.ko: /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/sx933x_sar.ko: /aera-device-runtime/modules/sensors_class.ko
+/aera-device-runtime/modules/cirrus_cs35l41.ko: /aera-device-runtime/modules/cirrus_wm_adsp.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko
+/aera-device-runtime/modules/tzlog_dump.ko: /aera-device-runtime/modules/mmi_info.ko /aera-device-runtime/modules/mmi_annotate.ko
+/aera-device-runtime/modules/audio_swr.ko:
+/aera-device-runtime/modules/audio_wcd937x.ko: /aera-device-runtime/modules/audio_wcd9xxx.ko /aera-device-runtime/modules/audio_mbhc.ko /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_wcd_core.ko /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/audio_pinctrl_lpi.ko: /aera-device-runtime/modules/audio_q6.ko /aera-device-runtime/modules/audio_apr.ko /aera-device-runtime/modules/audio_q6_notifier.ko /aera-device-runtime/modules/audio_q6_pdr.ko /aera-device-runtime/modules/audio_snd_event.ko
+/aera-device-runtime/modules/synaptics_reflash.ko: /aera-device-runtime/modules/synaptics_core_module.ko /aera-device-runtime/modules/synaptics_i2c.ko /aera-device-runtime/modules/touchscreen_mmi.ko /aera-device-runtime/modules/sensors_class.ko /aera-device-runtime/modules/mmi_relay.ko
+/aera-device-runtime/modules/qpnp-power-on-mmi.ko:
+/aera-device-runtime/modules/mpq-dmx-hw-plugin.ko: /aera-device-runtime/modules/mpq-adapter.ko
+/aera-device-runtime/modules/audio_wsa881x.ko: /aera-device-runtime/modules/audio_swr.ko /aera-device-runtime/modules/audio_wcd_core.ko
+/aera-device-runtime/modules/rmnet_shs.ko:
+/aera-device-runtime/modules/cirrus_cs47l35.ko: /aera-device-runtime/modules/aov_trigger.ko /aera-device-runtime/modules/cirrus_madera.ko /aera-device-runtime/modules/cirrus_irq-madera.ko /aera-device-runtime/modules/cirrus_wm_adsp.ko
+/aera-device-runtime/modules/arizona-ldo1.ko:
+/aera-device-runtime/modules/audio_mbhc.ko:
+/aera-device-runtime/modules/exfat.ko:
