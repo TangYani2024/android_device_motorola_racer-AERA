@@ -53,6 +53,11 @@ $(call inherit-product, $(DEVICE_PATH)/aera_racer.mk)
 PRODUCT_PACKAGES += \
     racer_modules
 
+# Packaged module loader: modules install to /aera-device-runtime/modules
+# (see prebuilt/Android.mk); this prop makes kernel_module_loader use
+# only that directory instead of the installed ROM's vendor/dlkm layout.
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.aera.packaged_modules=true
+
 # TODO: aera-audio-bridge is device-specific (garnet ships audio/
 # with its own aera_audio_bridge.cpp for its audio HAL). Racer's audio
 # stack is Moto/Cirrus (madera + cs35l41). Audio in recovery is
