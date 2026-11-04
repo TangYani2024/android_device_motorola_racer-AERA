@@ -3,3 +3,6 @@ ro.charger.enable_suspend=1
 
 # OTG
 persist.sys.isUsbOtgEnabled=true
+
+# AERA packaged module loader (read by kernel_module_loader at boot)
+ro.aera.packaged_modules=true
